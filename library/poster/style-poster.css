@@ -1,0 +1,8 @@
+.poster-list{
+  list-style: none;
+  margin-left: 4em;
+}
+
+.poster img {
+  width: 45%;
+}
