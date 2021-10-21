@@ -1,0 +1,60 @@
+.contents a{
+  color: rgb(168, 132, 102);
+}
+
+/*パソコンのとき*/
+@media screen and (min-width:767px) {
+  .contact-main .background{ /*追加*/
+    background-image: url(gallery/contact2.jpg);
+  }
+
+  .access {
+    margin-left: 5vw;
+  }
+   
+  .access iframe {
+    width: 590px;
+    height: 450px;
+  }   
+
+  .contact {
+    margin-left: 4vw;
+  }
+
+  .contact iframe {
+    margin: 0vw;
+  }
+
+}
+
+/*スマホのとき*/
+@media screen and (max-width:767px) {
+
+  .contact-main .background{ /*追加*/
+    background-image: url(gallery/contact2.jpg);
+  }
+
+  .access iframe {
+    padding-left: 3vw;
+    width: 80vw;
+  }
+
+  .access {
+    margin-left: 5vw;
+  }
+
+  #access table {
+    padding-left: 5vw;
+  }
+
+  .contact {
+    width: 90%;
+    margin: 0vw;
+  }
+
+  .contact iframe {
+    width: 100%;
+    margin-left: 5%;
+  }
+
+}
