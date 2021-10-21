@@ -1,0 +1,32 @@
+.background{
+    background-image: url(../img/odo.jpg);
+  }
+
+.shinbun-list a{
+    color: rgb(168, 132, 102);
+    line-height: 1.8em;
+
+}
+
+.shinbun-list{
+  list-style: none;
+  margin-left: 4em;
+}
+
+.shinbun img {
+  width: 100%;
+}
+
+.poster a{
+  margin-left: 4em;
+
+}
+
+.contents a{
+  color: rgb(168, 132, 102);
+}
+
+.snap a{
+  margin-left: 4em;
+  color: rgb(168, 132, 102);
+}
