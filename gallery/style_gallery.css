@@ -1,0 +1,130 @@
+.contents a{
+  color: rgb(168, 132, 102);
+}
+
+/*パソコンのとき*/
+@media screen and (min-width:767px) {
+  .gallery-main .background{ /*追加*/
+    background-image: url(gallery/gallery2.jpg);
+  }
+
+  #picture ul {
+    padding-left: 3vw;
+  }
+
+  #picture li {
+    display: inline-block;
+  }
+
+  #picture img {
+    width: 18vw;
+    margin: 0.5vw;
+  }
+
+  .movie-list {
+    height: 30vw;
+    width: 60%;
+  }
+
+  .movie-size {
+    position: relative;
+    padding-bottom: 56.25%; /*アスペクト比 16:9の場合の縦幅*/
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 0;
+  }
+
+  .movie-size iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-left: 1%;
+  }
+  #twitter ul {
+    padding-left: 3vw;
+  }
+
+  #twitter li {
+    width: 40%;
+    margin-left: 0.5vw;
+    display: inline-block;
+  }
+
+  .twitter-tweet {
+    width:auto;
+    height: auto;
+  }
+
+  #instagram ul {
+    padding-left: 3vw;
+  }
+
+  #instagram li {
+    width: 40%;
+    margin: 0.5vw;
+    display: inline-block;
+  }
+
+  .instagram-media {
+    width: auto;
+    height: auto;
+  }
+
+}
+
+/*スマホのとき*/
+@media screen and (max-width:767px) {
+
+  .gallery-main .background{ /*追加*/
+    background-image: url(gallery/gallery2.jpg);
+  }
+
+  #picture img {
+    width: 80vw;
+    margin: 2%;
+  }
+
+  .movie-size {
+    position: relative;
+    padding-bottom: 56.25%; /*アスペクト比 16:9の場合の縦幅*/
+    height: 0;
+    overflow: hidden;
+  }
+
+  .movie-size iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80vw;
+    height: 88%;
+    margin: 2%;
+  }
+
+  #twitter li {
+    width: 80%;
+    height: 100vw;
+    display: inline-block;
+  }
+
+  .twitter-tweet {
+    width: 80vw;
+    height: 50%;
+    margin-bottom: none;
+    margin: 2%;
+  }
+
+  #instagram li {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+
+  .instagram-media {
+    width: 60vw;
+    height: auto;
+    margin: 2%;
+  }
+
+}
