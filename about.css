@@ -1,0 +1,84 @@
+.ryoukin{
+  color: #CD853F;
+}
+
+.pic{
+  width: 230px;
+  height: 170px;
+  border: 2px solid rgb(224, 223, 223);
+  padding: 0;
+  margin: 0vh 3vw 0vh 1vw
+}
+
+.ta{
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  margin-left: 3vw;
+}
+
+h4{
+  color: #CC6633;
+  text-align: center;
+  font-size: 33px;
+  text-decoration: underline;
+}
+
+.mini{
+  text-align: center;
+}
+
+h6{
+      font-size: 1.2vw;
+      margin-left: 1vw;
+      text-shadow: #fff 2px 0, #fff -2px 0, #fff 0 -2px, #fff 0 2px, #fff 2px 2px, #fff -2px 2px, #fff 2px -2px, #fff -2px -2px, #fff 1px 2px, #fff -1px 2px;
+      color: #996666;
+}
+
+.ta p{
+  margin: 0vh 1vw 0vh 1vw;
+  padding: 0;
+}
+
+.movie{
+  color: #CD853F;
+}
+
+.sinbun {
+  margin-bottom: 3.5em;
+  margin-top: 3.5em;
+}
+
+.aizu{
+  margin-bottom: 3.5em;
+  margin-top: 3.5em;
+}
+
+.background{
+  background-image: url(index-gallery/tanabata4.jpg);
+}
+
+@media screen and (max-width:767px) {
+   .ta{
+     flex-flow: column;
+   }
+
+   .ta1{
+     margin-left: auto;
+     margin-right: auto;
+   }
+   .ta2{
+     margin-left: auto;
+     margin-right: auto;
+     padding-left: 23px;
+
+   }
+   .ta3{
+     margin-left: auto;
+     margin-right: auto;
+   }
+   .ta4{
+     margin-left: auto;
+     margin-right: auto;
+   }
+ }
