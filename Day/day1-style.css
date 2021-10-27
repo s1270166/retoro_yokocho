@@ -1,0 +1,78 @@
+.background{
+    background-image: url(../library/img/odo.jpg);
+  }
+
+.kikaku-list{
+  margin-left: 3em;
+}
+
+.day-btn{
+  text-align: center;
+  margin: 10px 0px 50px;
+
+}
+
+.day-btn a{
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+a.btn{
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all  0.4s ease;
+}
+
+a.btn:hover{
+    background-color: rgba(165, 127, 96, 0.788);
+    color: white;
+}
+
+a.btn{
+  margin: 0px 2px;
+  padding: 10px 15px;
+  background-color: rgba(223, 135, 94, 0.904);
+  border-radius: 10px;
+  border: 1.5px solid rgba(223, 135, 94, 0.904);
+}
+
+/*パソコンのとき*/
+@media screen and (min-width:767px) {
+
+  .map {
+    position: relative;
+    width: 100%;
+    padding: calc(200 / 300 * 100%) 0 0;
+  }
+
+  .map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 50px;
+    width: 90%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width:767px) {
+
+  .map {
+    position: relative;
+    width: 90%;
+    padding: calc(200 / 200 * 100%) 0 0;
+  }
+
+  .map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 30px;
+    width: 90%;
+    height: 100%;
+  }
+}
