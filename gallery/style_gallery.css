@@ -42,20 +42,6 @@
     height: 100%;
     padding-left: 1%;
   }
-  #twitter ul {
-    padding-left: 3vw;
-  }
-
-  #twitter li {
-    width: 40%;
-    margin-left: 0.5vw;
-    display: inline-block;
-  }
-
-  .twitter-tweet {
-    width:auto;
-    height: auto;
-  }
 
 }
 
@@ -84,19 +70,6 @@
     left: 0;
     width: 80vw;
     height: 88%;
-    margin: 2%;
-  }
-
-  #twitter li {
-    width: 80%;
-    height: 100vw;
-    display: inline-block;
-  }
-
-  .twitter-tweet {
-    width: 80vw;
-    height: 50%;
-    margin-bottom: none;
     margin: 2%;
   }
 
