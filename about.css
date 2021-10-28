@@ -93,6 +93,11 @@ a.btn{
   border: 1.5px solid rgba(223, 135, 94, 0.904);
 }
 
+.LINE{
+  width: 70px;
+  height: 70px;
+}
+
 /*パソコンのとき*/
 @media screen and (min-width:767px) { /*追加*/
   h4{
