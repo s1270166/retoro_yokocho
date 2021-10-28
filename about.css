@@ -1,13 +1,13 @@
-.ryoukin{
-  color: #CD853F;
-}
-
 .pic{
   width: 230px;
   height: 170px;
   border: 2px solid rgb(224, 223, 223);
   padding: 0;
   margin: 0vh 3vw 0vh 1vw
+}
+
+.date{ /*追加*/
+  color: #CD853F;
 }
 
 .ta{
@@ -20,7 +20,6 @@
 h4{
   color: #CC6633;
   text-align: center;
-  font-size: 33px;
   text-decoration: underline;
 }
 
@@ -31,6 +30,7 @@ h4{
 h6{
       font-size: 1.2vw;
       margin-left: 1vw;
+      margin-bottom: 0;  /*追加*/
       text-shadow: #fff 2px 0, #fff -2px 0, #fff 0 -2px, #fff 0 2px, #fff 2px 2px, #fff -2px 2px, #fff 2px -2px, #fff -2px -2px, #fff 1px 2px, #fff -1px 2px;
       color: #996666;
 }
@@ -58,9 +58,26 @@ h6{
   background-image: url(index-gallery/tanabata4.jpg);
 }
 
+/*パソコンのとき*/
+@media screen and (min-width:767px) { /*追加*/
+  h4{
+    font-size: 2.5vw;
+  }
+}
+
+
+/*スマホのとき*/
 @media screen and (max-width:767px) {
    .ta{
      flex-flow: column;
+   }
+
+   h4{ /*追加*/
+     font-size: 1.4em;
+   }
+
+   h6{
+      font-size: 15px;
    }
 
    .ta1{
