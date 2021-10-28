@@ -57,21 +57,6 @@
     height: auto;
   }
 
-  #instagram ul {
-    padding-left: 3vw;
-  }
-
-  #instagram li {
-    width: 40%;
-    margin: 0.5vw;
-    display: inline-block;
-  }
-
-  .instagram-media {
-    width: auto;
-    height: auto;
-  }
-
 }
 
 /*スマホのとき*/
@@ -112,18 +97,6 @@
     width: 80vw;
     height: 50%;
     margin-bottom: none;
-    margin: 2%;
-  }
-
-  #instagram li {
-    width: 100%;
-    height: auto;
-    display: inline-block;
-  }
-
-  .instagram-media {
-    width: 60vw;
-    height: auto;
     margin: 2%;
   }
 
