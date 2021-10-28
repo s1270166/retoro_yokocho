@@ -58,6 +58,41 @@ h6{
   background-image: url(index-gallery/main.jpg);
 }
 
+/*ぼたん*/
+.day-btn{
+  text-align: center;
+  margin: 30px 0px 50px;
+
+}
+
+.day-btn a{
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+a.btn{
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all  0.4s ease;
+}
+
+a.btn:hover{
+    background-color: rgba(165, 127, 96, 0.788);
+    color: white;
+}
+
+a.btn{
+  margin: 0px 2px;
+  padding: 10px 15px;
+  background-color: rgba(223, 135, 94, 0.904);
+  border-radius: 10px;
+  border: 1.5px solid rgba(223, 135, 94, 0.904);
+}
+
 /*パソコンのとき*/
 @media screen and (min-width:767px) { /*追加*/
   h4{
