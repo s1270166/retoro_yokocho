@@ -103,6 +103,21 @@ a.btn{
   h4{
     font-size: 2.5vw;
   }
+  
+  .youtube{
+    position: relative;;
+    width: 500px;
+    height: 250px;
+  }
+
+  .youtube iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 50px;
+    width: 90%;
+    height: 100%;
+  }
 }
 
 
@@ -138,4 +153,19 @@ a.btn{
      margin-left: auto;
      margin-right: auto;
    }
+  
+  .youtube{
+    position: relative;
+    width: 100%;
+    padding: calc(250/500 * 100%) 0 0;
+  }
+
+  .youtube iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 10px;
+    width: 90%;
+    height: 100%;
+  }
  }
